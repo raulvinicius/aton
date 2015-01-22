@@ -18,6 +18,14 @@
 <?php $fileN2 = explode('/', $fileN2) ?>
 <?php $fileN2 = $fileN2[1]; ?>
 
+<?php
+
+if ( $fileN2 == "" ) : 
+	$fileN2 = "index";
+endif;
+
+?>
+
 <?php if ( strpos( $_SERVER[ "REQUEST_URI" ], "frontend" ) ) : ?>
 
     <?php $tUrl = get_bloginfo("template_url"); ?>
