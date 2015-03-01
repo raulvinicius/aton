@@ -49,14 +49,14 @@
 
             <div id="navbar" class="navbar-collapse collapse">
     			<ul class="nav navbar-nav">
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/o-hotel">O Hotel</a></li>
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/acomodacoes">Acomodações</a></li>
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/servicos">Serviços</a></li>
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/reservas">Reservas</a></li>
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/tarifas">Tarifas</a></li>
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/promocoes">Promoções</a></li>
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/parceiros">Parceiros</a></li>
-    		        <li><a href="<?php bloginfo('url'); echo $frontendUrl ?>/contato">Contato</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/o-hotel">O Hotel</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/acomodacoes">Acomodações</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/servicos">Serviços</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/reservas">Reservas</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/tarifas">Tarifas</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/promocoes">Promoções</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/parceiros">Parceiros</a></li>
+    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/contato">Contato</a></li>
     	      </ul>
             </div><!--/.navbar-collapse -->
           </div>

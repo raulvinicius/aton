@@ -45,6 +45,76 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 
+.ani-02-in-out
+{
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+
+.ani-04-in-out
+{
+    -webkit-transition: 0.4s all ease-in-out;
+    -moz-transition: 0.4s all ease-in-out;
+    -o-transition: 0.4s all ease-in-out;
+    -ms-transition: 0.4s all ease-in-out;
+    transition: 0.4s all ease-in-out;
+}
+
+.ani-06-in-out
+{
+    -webkit-transition: 0.6s all ease-in-out;
+    -moz-transition: 0.6s all ease-in-out;
+    -o-transition: 0.6s all ease-in-out;
+    -ms-transition: 0.6s all ease-in-out;
+    transition: 0.6s all ease-in-out;
+}
+
+
+
+.ani-delay-04
+{
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    -ms-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+}
+
+.ani-delay-06
+{
+    -webkit-transition-delay: 0.6s;
+    -moz-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    -ms-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+}
+
+.ani-delay-08
+{
+    -webkit-transition-delay: 0.8s;
+    -moz-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 html,
@@ -116,11 +186,27 @@ html body .navbar #navbar .navbar-nav li a:focus
 	display: block;
 }
 
+.alpha
+{
+	padding-left: 0;
+}
+
+.omega
+{
+	padding-right: 0;
+}
+
+
+
+
+
+
+
 .chamada.home
 {
 	background: url('img/aton-destaque-home.jpg') top center no-repeat;
 	height: 100%;
-	position: relative;
+	position: relative;	
 }
 
 .chamada.home hgroup
@@ -132,7 +218,7 @@ html body .navbar #navbar .navbar-nav li a:focus
 	font-weight: normal;
 	line-height: 30px;
 	height: 168px;
-	margin-top: 250px;
+	margin-top: 320px;
 }
 
 .chamada.home hgroup h2,
@@ -157,48 +243,81 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 .chamada.home #form-pre-reserva
 {
-	background: url('img/aton-bg-form-reserva-home.png') center no-repeat;
+	background: url('img/aton-bg-form-reserva-home.png') top center no-repeat;
+	margin-top: 300px;
+	padding-top: 20px;
+	height: 320px;
+	border-top: 1px solid #7030a0;
+	position: relative;
 }
 
 .chamada.home .form-group
 {
-	/*line-height: 50px;*/
+	margin-bottom: 30px;
 }
 
 .chamada.home .form-group label
 {
 	background: #7030a0;
 	color: white;
-	padding: 0 20px;
 	font-weight: normal;
 	border-radius: 3px;
 	display: block;
+	height: 28px;
+	line-height: 28px;
+	-webkit-box-shadow: 2px 2px 0 #cbcbcb;
+	-khtml-box-shadow: 2px 2px 0 #cbcbcb;
+	-moz-box-shadow: 2px 2px 0 #cbcbcb;
+	-ms-box-shadow: 2px 2px 0 #cbcbcb;
+	-o-box-shadow: 2px 2px 0 #cbcbcb;
+	box-shadow: 2px 2px 0 #cbcbcb;
+
 }
 
 .chamada.home .form-group.g label
 {
-	/*padding: 16px 16px 17px;*/
+	height: 50px;
+	line-height: 50px;
+}
+
+.chamada.home .form-group.g label span
+{
+	text-align: center;
+}
+
+.chamada.home .form-group label .wrap-input
+{
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .chamada.home .form-group input
 {
 	background: white;
 	box-shadow: 2px 2px 0 #cbcbcb;
-	border-radius: 0 5px 5px 0;
-	width: auto;
+	border-radius: 0 2px 2px 0;
 	padding: 8px 10px 7px;
 	border: 0;
-	margin-left: 15px;
+	height: 28px;
 	-webkit-box-shadow: none;
 	-khtml-box-shadow: none;
 	-moz-box-shadow: none;
 	-ms-box-shadow: none;
 	-o-box-shadow: none;
 	box-shadow: none;
+	font-family: 'dinproregular', 'Arial Narrow', Arial, sans-serif;
+	color: #7030a0;
+	-webkit-text-shadow: 1px 1px 0 #dedede;
+	-khtml-text-shadow: 1px 1px 0 #dedede;
+	-moz-text-shadow: 1px 1px 0 #dedede;
+	-ms-text-shadow: 1px 1px 0 #dedede;
+	-o-text-shadow: 1px 1px 0 #dedede;
+	text-shadow: 1px 1px 0 #dedede;
 }
 
 .chamada.home .form-group.g input
 {
+	font-size: 26px;
 	padding: 25px 10px;
 }
 
@@ -207,3 +326,38 @@ html body .navbar #navbar .navbar-nav li a:focus
 	display: inline;
 }
 
+.chamada.home #form-pre-reserva button
+{
+	position: absolute;
+	top: 263px;
+	right: 0;
+	background: url('img/aton-bg-bt-reserva-home.png') top right no-repeat;
+	width: 361px;
+	height: 52px;
+	border-radius: 0;
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	color: #ffb424;
+	font-size: 20px;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+
+.chamada.home #form-pre-reserva button:hover,
+.chamada.home #form-pre-reserva button:focus
+{
+	color: white;
+}
+
+.chamada.home .seta-rolagem
+{
+	background: url('img/aton-icon-rolar-home.png');
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -21px;
+}
