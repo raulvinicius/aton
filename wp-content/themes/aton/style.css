@@ -24,7 +24,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
     src: url(fonts/dinpro-light-webfont.eot?#iefix) format('embedded-opentype'),
          url(fonts/dinpro-light-webfont.woff) format('woff'),
          url(fonts/dinpro-light-webfont.ttf) format('truetype'),
-         url(fonts/dinpro-light-webfont.svg#ralewayregular) format('svg');
+         url(fonts/dinpro-light-webfont.svg#ralewaylight) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -37,6 +37,18 @@ Use it to make something cool, have fun, and share what you've learned with othe
          url(fonts/dinpro-regular-webfont.woff) format('woff'),
          url(fonts/dinpro-regular-webfont.ttf) format('truetype'),
          url(fonts/dinpro-regular-webfont.svg#ralewayregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'dinpromedium';
+    src: url(fonts/dinpro-medium-webfont.eot);
+    src: url(fonts/dinpro-medium-webfont.eot?#iefix) format('embedded-opentype'),
+         url(fonts/dinpro-medium-webfont.woff) format('woff'),
+         url(fonts/dinpro-medium-webfont.ttf) format('truetype'),
+         url(fonts/dinpro-medium-webfont.svg#ralewaymedium) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -472,6 +484,49 @@ html body .navbar #navbar .navbar-nav li a:focus
 #hotel #sobre
 {
 	height: 1006px;
+	background: #eeeeee
+}
+
+#hotel #titulo
+{
+	background: url('img/aton-bg-titulo-hotel.jpg') right top no-repeat;
+	background-size: cover;
+	height: 940px;
+	position: relative;
+}
+
+#hotel #titulo h2
+{
+	position: absolute;
+	right: 0;
+	color: white;
+	font-size: 72px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	text-align: right;
+	margin: 0;
+	padding-left: 20px;
+	margin-top: 45px;
+}
+
+#hotel #titulo h2 span
+{
+	background: url('img/aton-bg-roxo-80.png');
+}
+
+#hotel #intro-vantagens
+{
+	height: 360px;
+	text-align: center;
+	font-size: 36px;
+	color: #666;
+}
+
+#hotel #intro-vantagens p
+{
+	margin-top: 100px;
+	padding-left: 140px;
+	padding-right: 140px;
+	height: 100px;
 }
 
 #hotel #vantagens
@@ -487,18 +542,127 @@ html body .navbar #navbar .navbar-nav li a:focus
 	overflow: hidden;
 	height: 337px;
 	margin-bottom: 20px;
+	color: white;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	font-size: 26px;
+	padding-right: 20px;
 }
 
 #hotel #vantagens li.roxo
 {
 	background: #7030a0;
 	height: 159px;
+}
 
+#hotel #vantagens li#fidelidade
+{
+	height: 192px;
 }
 
 #hotel #vantagens li figure
 {
 	float: left;
 	margin-top: 20px;
+	margin-right: 30px;
+}
+
+#hotel #vantagens li h3
+{
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+#hotel #vantagens li p
+{
+	margin-bottom: 0;
+}
+
+#hotel #vantagens li span
+{
+	font-size: 14px;
+	font-style: italic;
+}
+
+#hotel #depoimentos
+{
+	background: #333333;
+	padding-bottom: 70px;
+}
+
+#hotel #depoimentos #wrap-titulo
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: white;
+	font-size: 44px;
+}
+
+#hotel #depoimentos #wrap-titulo h2
+{
+	font-size: 44px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hotel #depoimentos #wrap-titulo h2
+{
+	font-size: 44px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hotel #depoimentos .seta-esq
+{
+	background: url('img/aton-icon-seta-left-depoimentos.png') center no-repeat;
+	width: 10%;
+	height: 280px;
+	float: left;
+}
+
+#hotel #depoimentos .seta-dir
+{
+	float: left;
+	background: url('img/aton-icon-seta-right-depoimentos.png') center no-repeat;
+	width: 10%;
+	height: 280px;
+}
+
+#hotel #depoimentos .depoimento
+{
+	float: left;
+	background: white;
+	border-radius: 3px;
+	width: 80%;
+	height: 280px;
+	padding: 20px 2%;
+	text-align: center;
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+}
+
+#hotel #depoimentos .depoimento footer
+{
+	margin-top: 20px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	color: #7030a0;
+	font-size: 26px;
+	line-height: 20px;
+}
+
+#hotel #depoimentos .depoimento footer span
+{
+	font-size: 16px;
+	color: #666;
+}
+
+#hotel #depoimentos .depoimento footer:before,
+#hotel #depoimentos .depoimento footer:after
+{
+	background: #999999;
+	width: 40px;
+	height: 1px;
+	display: block;
+	content: '';
+	margin: 20px auto;
 }
 
