@@ -125,7 +125,7 @@ body
 }
 
 body,
-body png
+body
 {
 	font-family: 'dinproregular', 'Arial Narrow', Arial, sans-serif;
 }
@@ -202,14 +202,14 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 
 
-.chamada.home
+#home.chamada
 {
 	background: url('img/aton-destaque-home.jpg') top center no-repeat;
 	height: 100%;
 	position: relative;	
 }
 
-.chamada.home hgroup
+#home.chamada hgroup
 {
 	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
 	font-size: 72px;
@@ -221,27 +221,27 @@ html body .navbar #navbar .navbar-nav li a:focus
 	margin-top: 320px;
 }
 
-.chamada.home hgroup h2,
-.chamada.home hgroup h3
+#home.chamada hgroup h2,
+#home.chamada hgroup h3
 {
 	background: url('img/aton-bg-roxo-80.png');
 	display: inline-block;
 	margin: 0;
 }
 
-.chamada.home hgroup h2
+#home.chamada hgroup h2
 {
 	padding: 20px 30px 10px;
 	font-size: 72px;
 }
 
-.chamada.home hgroup h3
+#home.chamada hgroup h3
 {
 	padding: 5px 30px 10px;
 	font-size: 40px;
 }
 
-.chamada.home #form-pre-reserva
+#home.chamada #form-pre-reserva
 {
 	background: url('img/aton-bg-form-reserva-home.png') top center no-repeat;
 	margin-top: 300px;
@@ -251,12 +251,12 @@ html body .navbar #navbar .navbar-nav li a:focus
 	position: relative;
 }
 
-.chamada.home .form-group
+#home.chamada .form-group
 {
 	margin-bottom: 30px;
 }
 
-.chamada.home .form-group label
+#home.chamada .form-group label
 {
 	background: #7030a0;
 	color: white;
@@ -274,24 +274,24 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 }
 
-.chamada.home .form-group.g label
+#home.chamada .form-group.g label
 {
 	height: 50px;
 	line-height: 50px;
 }
 
-.chamada.home .form-group.g label span
+#home.chamada .form-group.g label span
 {
 	text-align: center;
 }
 
-.chamada.home .form-group label .wrap-input
+#home.chamada .form-group label .wrap-input
 {
 	padding-left: 0;
 	padding-right: 0;
 }
 
-.chamada.home .form-group input
+#home.chamada .form-group input
 {
 	background: white;
 	box-shadow: 2px 2px 0 #cbcbcb;
@@ -315,18 +315,18 @@ html body .navbar #navbar .navbar-nav li a:focus
 	text-shadow: 1px 1px 0 #dedede;
 }
 
-.chamada.home .form-group.g input
+#home.chamada .form-group.g input
 {
 	font-size: 26px;
 	padding: 25px 10px;
 }
 
-.chamada.home .form-group input
+#home.chamada .form-group input
 {
 	display: inline;
 }
 
-.chamada.home #form-pre-reserva button
+#home.chamada #form-pre-reserva button
 {
 	position: absolute;
 	top: 263px;
@@ -345,19 +345,160 @@ html body .navbar #navbar .navbar-nav li a:focus
 	text-transform: uppercase;
 }
 
-.chamada.home #form-pre-reserva button:hover,
-.chamada.home #form-pre-reserva button:focus
+#home.chamada #form-pre-reserva button:hover,
+#home.chamada #form-pre-reserva button:focus
 {
 	color: white;
 }
 
-.chamada.home .seta-rolagem
+#home.chamada .seta-rolagem
 {
-	background: url('img/aton-icon-rolar-home.png');
+	background: url('img/aton-icon-rolar-home.png') top center no-repeat;
 	width: 42px;
 	height: 42px;
 	position: absolute;
 	bottom: 10px;
 	left: 50%;
 	margin-left: -21px;
+	bottom: 10;
 }
+
+#home.chamada .seta-rolagem:hover
+{
+	bottom: 20px;
+}
+
+#home.tour,
+#home.mapa
+{
+	height: 597px;
+}
+
+#home.tour
+{
+	background: url('img/aton-bg-tour.jpg');
+	text-align: center;
+}
+
+#home.tour figure
+{
+	margin-top: 175px;
+}
+
+#home.tour h2
+{
+	font-size: 48px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+}
+
+#home.tour p
+{
+	font-size: 25px;
+	color: #ffb525;
+	margin-top: -10px;
+}
+
+#home.mapa
+{
+	background: #7030a0;
+}
+
+#home.mapa .ico-onde-estamos
+{
+	background: url('img/aton-icon-maps.png') center no-repeat;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+#home.mapa h2
+{
+	color: white;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	font-size: 45px;
+	display: inline;
+	line-height: 70px;
+	vertical-align: text-bottom;
+}
+
+#home.mapa #endereco
+{
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 44px;
+}
+
+#home.mapa .map
+{
+	background: url('img/aton-bg-maps-home.jpg');
+	height: 382px;
+}
+
+#home.mapa ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #652b90;
+	padding-top: 1px;
+}
+
+#home.mapa ul li.stripe
+{
+	background: #512273;
+}
+
+#home.mapa ul li p
+{
+	font-size: 16px;
+	color: #ffb525;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+/*-------------------O HOTEL-------------------*/
+
+#hotel #sobre
+{
+	height: 1006px;
+}
+
+#hotel #vantagens
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#hotel #vantagens li
+{
+	background: #ffb525;
+	overflow: hidden;
+	height: 337px;
+	margin-bottom: 20px;
+}
+
+#hotel #vantagens li.roxo
+{
+	background: #7030a0;
+	height: 159px;
+
+}
+
+#hotel #vantagens li figure
+{
+	float: left;
+	margin-top: 20px;
+}
+

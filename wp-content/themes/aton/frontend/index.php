@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="chamada home compensa-menu">
+<section id="home" class="chamada compensa-menu">
 
 	<div class="container-fluid">
 		<div class="row">
@@ -80,34 +80,77 @@
 						</div>
 					</div>
 					<div class="row">
-						<button type="submit" class="btn btn-default">Fazer minha reserva</button>
+						<button type="submit" class="ani-02-in-out btn btn-default">Fazer minha reserva</button>
 					</div>
 				</form>
 			</div>
 		</div>
 	</div>
 
-	<div class="seta-rolagem"></div>
+	<div class="seta-rolagem ani-04-in-out"></div>
 
 </section>
 
+<div class="container-fluid">
+	<div class="row">
 
+		<section id="home" class="tour col-sm-6">
 
+			<figure>
 
-</body>
+				<img src="<?php bloginfo('template_url') ?>/img/aton-icon-3600.png">
 
+			</figure>
 
+			<h2>Vamos dar uma volta</h2>
+			<p>Confira nossas acomodações pelo Tour 360º</p>
 
+		</section>
+		
+		<section id="home" class="mapa col-sm-6">
 
-      <footer>
-        <p>&copy; Company 2015</p>
-      </footer>
+			<div class="row">
 
+				<div class="col-sm-12">
 
+					<i class="ico-onde-estamos"></i>
+					<h2>Onde estamos</h2>
+					<p id="endereco">Av. Anhanguera, nº 5308 - Centro (ao lado das Lojas Pernambucanas) <br>
+						Goiânia-GO, CEP: 74043-010</p>
 
+				</div>
 
+			</div>
+		
+			<div class="row">
 
+				<div class="map col-sm-5">
 
+				</div>
+
+				<div class="col-sm-7 alpha omega">
+
+					<ul>
+
+						<li><p>300 metros do <strong>Centro de Cultura e Convenções</strong>.</p></li>
+						<li class="stripe"><p>08 Km do <strong>aeroporto</strong>.</p></li>
+						<li><p>01 Km da <strong>Estação Rodoviária</strong> e <strong>Feira de Estação</strong>.</p></li>
+						<li class="stripe"><p>Menos de 01 Km da <strong>Feira da Lua</strong> (a mais famosa feira de confecções)</p></li>
+						<li><p>Menos de 01 Km da <strong>Feira Hippie</strong></p></li>
+						<li class="stripe"><p>04 Km da <strong>Av. Bernardo Sayão</strong> (confecções).</p></li>
+						<li><p>700 metros da <strong>Praça Cívica</strong>.</p></li>
+						<li class="stripe"><p>06 Km do <strong>Shopping Flamboyant</strong>.</p></li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</section>
+		
+	</div>
+</div>
 
 
 
