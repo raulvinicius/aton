@@ -62,6 +62,24 @@
           </div>
         </nav>
 
+        <section id="reservas" id="compensa-menu">
+
+            <div class="container-fluid">
+
+                <div class="row click-trap">
+
+                    <form class="col-sm-5 col-sm-offset-4">
+
+                        
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
 
 
 <!-- //////////////////// -->

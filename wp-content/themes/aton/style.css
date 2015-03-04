@@ -479,6 +479,10 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 
 
+
+
+
+
 /*-------------------O HOTEL-------------------*/
 
 #hotel #sobre
@@ -666,3 +670,248 @@ html body .navbar #navbar .navbar-nav li a:focus
 	margin: 20px auto;
 }
 
+
+
+
+
+/*-------------------ACOMODAÇÕES-------------------*/
+
+#acomodacoes .row.space
+{
+	margin-bottom: 15px;
+}
+
+#acomodacoes ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#acomodacoes ul li
+{
+	float: left;
+}
+
+#acomodacoes ul li figcaption
+{
+	padding: 30px;
+}
+
+#acomodacoes .wrap-img,
+#acomodacoes figcaption
+{
+	float: left;
+}
+
+#acomodacoes .one-col,
+#acomodacoes .two-col,
+#acomodacoes .three-col,
+#acomodacoes .four-col
+{
+	color: white;
+}
+
+#acomodacoes .one-col .wrap-img,
+#acomodacoes .two-col .wrap-img,
+#acomodacoes .three-col .wrap-img,
+#acomodacoes .four-col .wrap-img
+{
+	overflow: hidden;
+}
+
+#acomodacoes .one-col figcaption h2,
+#acomodacoes .two-col figcaption h2,
+#acomodacoes .three-col figcaption h2
+{
+	font-size: 40px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+    line-height: 370px;
+}
+
+#acomodacoes .four-col figcaption h2
+{
+	font-size: 76px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	line-height: 550px;
+}
+
+#acomodacoes .two-col,
+#acomodacoes .three-col,
+#acomodacoes .two-col .wrap-img,
+#acomodacoes .three-col .wrap-img,
+#acomodacoes .two-col figcaption,
+#acomodacoes .three-col figcaption
+{
+	height: 480px;
+}
+
+#acomodacoes .one-col,
+#acomodacoes .one-col .wrap-img,
+#acomodacoes .one-col figcaption
+{
+	height: 240px;
+}
+
+#acomodacoes .one-col figcaption h2
+{
+	line-height: 150px;
+}
+
+#acomodacoes .two-col
+{
+	font-size: 40px;
+}
+
+#acomodacoes .four-col,
+#acomodacoes .four-col .wrap-img,
+#acomodacoes .four-col figcaption
+{
+	height: 640px;
+}
+
+#acomodacoes .roxo figcaption
+{
+	background: #7030a0;
+}
+
+#acomodacoes .amarelo figcaption
+{
+	background: #ffb525;
+}
+
+
+
+
+
+
+/*-------------------SERVIÇOS-------------------*/
+
+#servicos
+{
+	background: url('img/aton-bg-servicos.jpg') center no-repeat;
+	background-size: cover;
+	padding-bottom: 350px;
+}
+
+#servicos ul
+{
+	list-style: none;
+	margin: 30px 0 0;
+	text-align: center;
+}
+
+#servicos ul .row
+{
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+}
+
+#servicos .row.offset
+{
+	margin-left: 16.66666666%;	
+}
+
+#servicos li
+{
+	height: 611px;
+	color: #7030a0;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#servicos li.bg-100
+{
+	background-image: url('img/aton-bg-servico-100.png');
+}
+
+#servicos li.bg-95
+{
+	background-image: url('img/aton-bg-servico-95.png');
+}
+
+#servicos li.bg-90
+{
+	background-image: url('img/aton-bg-servico-90.png');
+}
+
+#servicos li.bg-80
+{
+	background-image: url('img/aton-bg-servico-80.png');
+}
+
+#servicos li i[class|=ico]
+{
+	display: block;
+	width: 139px;
+	height: 139px;
+	margin: 120px auto 0;
+}
+
+#servicos li .ico-portaria
+{
+	background: url('img/aton-icon-portaria.png');
+}
+
+#servicos li .ico-cafe
+{
+	background: url('img/aton-icon-cafe.png');
+}
+
+#servicos li .ico-estacionamento
+{
+	background: url('img/aton-icon-estacionamento.png');
+}
+
+#servicos li .ico-mensageiros
+{
+	background: url('img/aton-icon-mensageiros.png');
+}
+
+#servicos li .ico-central-telefonica
+{
+	background: url('img/aton-icon-central-telefonica.png');
+}
+
+#servicos li .ico-copa
+{
+	background: url('img/aton-icon-copa.png');
+}
+
+#servicos li .ico-restaurante
+{
+	background: url('img/aton-icon-restaurante.png');
+}
+
+#servicos li .ico-wifi
+{
+	background: url('img/aton-icon-wifi.png');
+}
+
+#servicos h2
+{
+	font-size: 28px;
+	font-family: 'dinproregular', 'Arial Narrow', Arial, sans-serif;
+}
+
+#servicos p
+{
+	font-size: 22px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	padding: 0 110px;
+}
+
+
+
+
+
+
+/*-------------------RESERVAS-------------------*/
+
+#reservas .click-trap
+{
+	background: url('img/aton-bg-form-reserva.png');
+	height: 100vh;
+}
