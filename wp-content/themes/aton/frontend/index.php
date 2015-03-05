@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="omega col-lg-4">
-				<form id="form-pre-reserva" class="container-fluid">
+				<form id="form-pre-reserva" class="aton-form container-fluid">
 					<div class="row">
 						<div class="form-group g col-sm-12">
 							<div class="container-fluid">
@@ -20,7 +20,7 @@
 									<label for="nome-reserva">
 										<span class="col-sm-2"><p>Nome</p></span>
 										<div id="" class="wrap-input col-sm-10">
-											<input type="text" class="form-control" id="nome-reserva">
+											<input type="text" class="form-control nome" id="nome-reserva">
 										</div>
 									</label>
 								</div>

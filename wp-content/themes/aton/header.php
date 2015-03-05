@@ -68,9 +68,216 @@
 
                 <div class="row click-trap">
 
-                    <form class="col-sm-5 col-sm-offset-4">
+                    <figure id="logo">
+                        <img src="<?php bloginfo('template_url') ?>/img/aton-logo-branca.png">
+                    </figure>
 
-                        
+                    <form class="aton-form col-sm-4 col-sm-offset-4">
+
+                        <div class="row titulo">
+                            <h2 class="col-sm-10 col-sm-offset-1">Minha reserva</h2>
+                            <button class="col-sm-1"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
+                        </div>
+
+                        <fieldset>
+
+                            <div class="row">
+                                <div class="form-group g col-sm-12">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="nome-reserva">
+                                                <span class="col-sm-2"><p>Nome</p></span>
+                                                <div id="" class="wrap-input col-sm-10">
+                                                    <input type="text" class="form-control nome" id="nome-reserva">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group g col-sm-12">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="email-reserva">
+                                                <span class="col-sm-2"><p>E-mail</p></span>
+                                                <div id="" class="wrap-input col-sm-10">
+                                                    <input type="phone" class="form-control" id="email-reserva">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group g col-sm-5">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="telefone-reserva">
+                                                <span class="col-sm-5"><p>Telefone</p></span>
+                                                <div id="" class="wrap-input col-sm-7">
+                                                    <input type="phone" class="form-control" id="telefone-reserva">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group g col-sm-7">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="cidade-reserva">
+                                                <span class="col-sm-3"><p>Cidade</p></span>
+                                                <div class="wrap-input col-sm-9">
+                                                    <input type="text" class="form-control" id="cidade-reserva">
+
+                                                    <select name="cidade-reserva">
+                                                        <option value="AC">AC</option>
+                                                        <option value="AL">AL</option>
+                                                        <option value="AP">AP</option>
+                                                        <option value="AM">AM</option>
+                                                        <option value="BA">BA</option>
+                                                        <option value="CE">CE</option>
+                                                        <option value="DF">DF</option>
+                                                        <option value="ES">ES</option>
+                                                        <option value="GO">GO</option>
+                                                        <option value="MA">MA</option>
+                                                        <option value="MT">MT</option>
+                                                        <option value="MS">MS</option>
+                                                        <option value="MG">MG</option>
+                                                        <option value="PA">PA</option>
+                                                        <option value="PB">PB</option>
+                                                        <option value="PR">PR</option>
+                                                        <option value="PE">PE</option>
+                                                        <option value="PI">PI</option>
+                                                        <option value="RJ">RJ</option>
+                                                        <option value="RN">RN</option>
+                                                        <option value="RS">RS</option>
+                                                        <option value="RO">RO</option>
+                                                        <option value="RR">RR</option>
+                                                        <option value="SC">SC</option>
+                                                        <option value="SP">SP</option>
+                                                        <option value="SE">SE</option>
+                                                        <option value="TO">TO</option>  
+                                                    </select>
+
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset>
+
+                            <div class="row">
+                                <div class="form-group g col-sm-5">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="entrada-reserva">
+                                                <span class="col-sm-4"><p>Entrada</p></span>
+                                                <div class="wrap-input col-sm-8">
+                                                    <input type="date" class="form-control" id="entrada-reserva">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group g col-sm-5">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="saida-reserva">
+                                                <span class="col-sm-4"><p>Saída</p></span>
+                                                <div class="wrap-input col-sm-8">
+                                                    <input type="date" class="form-control" id="saida-reserva">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset>
+
+                            <legend>Tipos de quartos</legend>
+
+                            <button>Adicionar quarto <i><img src="<?php bloginfo('template_url') ?>/img/aton-icon-mais.png"></i></button>
+
+                            <ul>
+
+                                <li>
+
+                                    <figure class="col-xs-2">
+                                        <img src="<?php bloginfo('template_url') ?>/img/aton-tb-quarto-reserva.jpg">
+                                    </figure>
+
+                                    <div class="col-xs-8">
+                                        <button class="seta-up">Mais</button>
+                                        <span>01</span>
+                                        <button class="seta-down">Menos</button>
+                                        <p>Quarto duplo</p>
+
+                                        <input type="hidden" name="quantidade-quarto-duplo">
+
+                                        <label for="cama-extra-quarto-duplo">
+                                            <input type="checkbox" name="cama-extra-quarto-duplo" id="cama-extra-quarto-duplo" value="sim" /> Cama Extra
+                                        </label>
+                                    </div>
+
+                                    <div class="col-xs-2">
+
+                                        <button class="excluir-quarto"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-excluir-quartos.png"></button>
+
+                                    </div>
+
+                                </li>
+
+                            </ul>
+
+                        </fieldset>
+
+                        <fieldset>
+
+                            <div class="row">
+                                <div class="form-group g col-sm-12">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="pagamento-reserva">
+                                                <span class="col-sm-2"><p>Forma de pagamento</p></span>
+                                                <div id="" class="wrap-input col-sm-10">
+                                                    <input type="text" class="form-control" id="pagamento-reserva">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset>
+
+                            <div class="row">
+                                <div class="form-group g col-sm-12">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <label for="observacoes-reserva">
+                                                <span class="col-sm-2"><p>Observações e comentários</p></span>
+                                                <div id="" class="wrap-input col-sm-10">
+                                                    <input type="text" class="form-control" id="observacoes-reserva">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                        <input type="submit" value="Finalizar minha reserva">
 
                     </form>
 

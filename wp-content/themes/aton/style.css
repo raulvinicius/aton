@@ -117,6 +117,89 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 
+.aton-form .form-group
+{
+	margin-bottom: 30px;
+}
+
+.aton-form .form-group label
+{
+	background: #7030a0;
+	color: white;
+	font-weight: normal;
+	border-radius: 3px;
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	-webkit-box-shadow: 2px 2px 0 #cbcbcb;
+	-khtml-box-shadow: 2px 2px 0 #cbcbcb;
+	-moz-box-shadow: 2px 2px 0 #cbcbcb;
+	-ms-box-shadow: 2px 2px 0 #cbcbcb;
+	-o-box-shadow: 2px 2px 0 #cbcbcb;
+	box-shadow: 2px 2px 0 #cbcbcb;
+
+}
+
+.aton-form .form-group.g label
+{
+	height: 50px;
+	line-height: 50px;
+}
+
+.aton-form .form-group.g label span
+{
+	text-align: center;
+}
+
+.aton-form .form-group label .wrap-input
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.aton-form .form-group input
+{
+	background: white;
+	box-shadow: 2px 2px 0 #cbcbcb;
+	border-radius: 0 2px 2px 0;
+	padding: 8px 10px 7px;
+	border: 0;
+	height: 28px;
+	-webkit-box-shadow: none;
+	-khtml-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	font-family: 'dinproregular', 'Arial Narrow', Arial, sans-serif;
+	color: #7030a0;
+	-webkit-text-shadow: 1px 1px 0 #dedede;
+	-khtml-text-shadow: 1px 1px 0 #dedede;
+	-moz-text-shadow: 1px 1px 0 #dedede;
+	-ms-text-shadow: 1px 1px 0 #dedede;
+	-o-text-shadow: 1px 1px 0 #dedede;
+	text-shadow: 1px 1px 0 #dedede;
+}
+
+.aton-form .form-group.g input
+{
+	padding: 25px 10px;
+}
+
+.aton-form .form-group .nome
+{
+	font-size: 26px;
+}
+
+.aton-form .form-group input
+{
+	display: inline;
+}
+
+
+
+
+
 
 
 
@@ -261,81 +344,6 @@ html body .navbar #navbar .navbar-nav li a:focus
 	height: 320px;
 	border-top: 1px solid #7030a0;
 	position: relative;
-}
-
-#home.chamada .form-group
-{
-	margin-bottom: 30px;
-}
-
-#home.chamada .form-group label
-{
-	background: #7030a0;
-	color: white;
-	font-weight: normal;
-	border-radius: 3px;
-	display: block;
-	height: 28px;
-	line-height: 28px;
-	-webkit-box-shadow: 2px 2px 0 #cbcbcb;
-	-khtml-box-shadow: 2px 2px 0 #cbcbcb;
-	-moz-box-shadow: 2px 2px 0 #cbcbcb;
-	-ms-box-shadow: 2px 2px 0 #cbcbcb;
-	-o-box-shadow: 2px 2px 0 #cbcbcb;
-	box-shadow: 2px 2px 0 #cbcbcb;
-
-}
-
-#home.chamada .form-group.g label
-{
-	height: 50px;
-	line-height: 50px;
-}
-
-#home.chamada .form-group.g label span
-{
-	text-align: center;
-}
-
-#home.chamada .form-group label .wrap-input
-{
-	padding-left: 0;
-	padding-right: 0;
-}
-
-#home.chamada .form-group input
-{
-	background: white;
-	box-shadow: 2px 2px 0 #cbcbcb;
-	border-radius: 0 2px 2px 0;
-	padding: 8px 10px 7px;
-	border: 0;
-	height: 28px;
-	-webkit-box-shadow: none;
-	-khtml-box-shadow: none;
-	-moz-box-shadow: none;
-	-ms-box-shadow: none;
-	-o-box-shadow: none;
-	box-shadow: none;
-	font-family: 'dinproregular', 'Arial Narrow', Arial, sans-serif;
-	color: #7030a0;
-	-webkit-text-shadow: 1px 1px 0 #dedede;
-	-khtml-text-shadow: 1px 1px 0 #dedede;
-	-moz-text-shadow: 1px 1px 0 #dedede;
-	-ms-text-shadow: 1px 1px 0 #dedede;
-	-o-text-shadow: 1px 1px 0 #dedede;
-	text-shadow: 1px 1px 0 #dedede;
-}
-
-#home.chamada .form-group.g input
-{
-	font-size: 26px;
-	padding: 25px 10px;
-}
-
-#home.chamada .form-group input
-{
-	display: inline;
 }
 
 #home.chamada #form-pre-reserva button
@@ -909,9 +917,64 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 
 /*-------------------RESERVAS-------------------*/
-
+body
+{
+	overflow: hidden;
+}
 #reservas .click-trap
 {
 	background: url('img/aton-bg-form-reserva.png');
 	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: 2000;
+	overflow: auto;
 }
+
+#reservas #logo
+{
+	margin: 33px auto;
+	display: block;
+	text-align: center;
+}
+
+#reservas form
+{
+	height: 2000px;
+	background: #eeeeee;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+#reservas form .titulo
+{
+	background: #ffb525;
+	color: #7030a0;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	height: 62px;
+}
+
+#reservas form .titulo h2
+{
+	font-size: 20px;
+}
+
+#reservas form .titulo button
+{
+	height: 62px;
+	background: none;
+	border: none;
+}
+
+#reservas fieldset
+{
+	margin: 30px -15px;
+	padding: 0 15px;
+	border-bottom: 1px solid #cccccc;
+}
+
+
+
