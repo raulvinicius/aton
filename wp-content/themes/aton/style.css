@@ -966,6 +966,12 @@ body
 {
 	overflow: hidden;
 }
+
+#reservas 
+{
+	display: none;
+}
+
 #reservas .click-trap
 {
 	background: url('img/aton-bg-form-reserva.png');
