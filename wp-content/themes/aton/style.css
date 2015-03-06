@@ -157,7 +157,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	padding-right: 0;
 }
 
-.aton-form .form-group input
+.aton-form .form-group select,
+.aton-form .form-group input,
+.aton-form .form-group textarea
 {
 	background: white;
 	box-shadow: 2px 2px 0 #cbcbcb;
@@ -181,6 +183,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	text-shadow: 1px 1px 0 #dedede;
 }
 
+.aton-form .form-group textarea
+{
+	height: 150px;
+}
+
+.aton-form .form-group.g select
+{
+	height: 50px;
+}
+
 .aton-form .form-group.g input
 {
 	padding: 25px 10px;
@@ -195,6 +207,39 @@ Use it to make something cool, have fun, and share what you've learned with othe
 {
 	display: inline;
 }
+
+.aton-form fieldset legend
+{
+	text-transform: uppercase;
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 16px;
+	color: #7030a0;
+	border: none;
+}
+
+.aton-form fieldset
+{
+	margin: 15px -15px 30px;
+	padding: 0 15px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.aton-form input[type=checkbox]
+{
+	width: 32px;
+}
+
+.aton-form .form-group.textarea,
+.aton-form .form-group.textarea label
+{
+	height: 150px;
+}
+
+.aton-form textarea
+{
+	resize: none;
+}
+
 
 
 
@@ -921,6 +966,12 @@ body
 {
 	overflow: hidden;
 }
+
+#reservas 
+{
+	display: none;
+}
+
 #reservas .click-trap
 {
 	background: url('img/aton-bg-form-reserva.png');
@@ -940,9 +991,8 @@ body
 
 #reservas form
 {
-	height: 2000px;
 	background: #eeeeee;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	border-radius: 3px;
 }
 
@@ -969,16 +1019,156 @@ body
 	border: none;
 }
 
-#reservas fieldset
+#reservas form #cidade-reserva
 {
-	margin: 30px -15px;
-	padding: 0 15px;
-	border-bottom: 1px solid #cccccc;
+	border-radius: 0;
+}
+
+#reservas form #uf-reserva
+{
+	border-left: 1px solid #cccccc;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 0;
+}
+
+#reservas form .wrap-uf-reserva:before,
+#reservas form .wrap-uf-reserva:after
+{
+	content: '';
+	width: 100%;
+	height: 10px;
+	display: block;
+	background: white;
+	margin-bottom: -10px;
+	border-radius: 0 3px 0 0 
+}
+
+#reservas form .wrap-uf-reserva:after
+{
+	border-radius: 0 0 3px 0 
+}
+
+#reservas form #btn-add-quarto
+{
+	padding: 15px;
+	border-radius: 3px;
+	background: #7030a0;
+	text-transform: uppercase;
+	color: white;
+	border: 0;
+}
+
+#reservas form #btn-add-quarto i
+{
+	margin-left: 25px;
+	vertical-align: text-bottom;
+}
+
+#reservas form #quartos
+{
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+
+#reservas form #quartos li
+{
+	background: white;
+	box-shadow: 1px 1px 0 #cbcbcb;
+	border-radius: 3px;
+	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
+	font-size: 22px;
+	color: #7030a0;
+	text-transform: uppercase;
+}
+
+#reservas form #quartos li label
+{
+	font-weight: normal;
+}
+
+#reservas form #quartos li p
+{
+	line-height: 92px;
+}
+
+#reservas form #quartos li .opcao-1
+{
+	border-bottom: 1px solid #dddddd;
+	height: 90px;
+}
+
+#reservas form #quartos li .opcao-2
+{
+	height: 90px;
+	line-height: 73px;
+}
+
+#reservas form #quartos li #num
+{
+	width: 40px;
+}
+
+#reservas form #quartos li #num span
+{
+	color: #ffb525;
+	display: block;
+	width: 32px;
+	height: 25px;
+	text-align: center;
+}
+
+#reservas form #quartos li #num button
+{
+	background: none;
+	width: 30px;
+	height: 30px;
+	border: none;
+}
+
+#reservas form #quartos li #exclui-quarto
+{
+	width: 100%;
+	height: 180px;
+	background: none;
+	border: none;
+}
+
+#reservas form #quartos li input[type=checkbox]
+{
+	visibility: hidden;
+}
+
+#reservas form #quartos li #ck-box-replace
+{
+	background: url('img/aton-ck-box.png') center no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 27px;
+	left: 20px;
+}
+
+#reservas form input[type=submit]
+{
+	height: 85px;
+	background: #ffb525;
+	border-radius: 0 0 3px 3px;
+	border: 0;
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #7030a0;
+}
+
+#reservas form input[type=submit]:focus,
+#reservas form input[type=submit]:hover
+{
+	background: #ffaa1f;
 }
 
 
 
-
-
-
 /*-------------------TARIFAS-------------------*/
+
