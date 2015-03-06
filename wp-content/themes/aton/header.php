@@ -49,14 +49,14 @@
 
             <div id="navbar" class="navbar-collapse collapse">
     			<ul class="nav navbar-nav">
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/o-hotel">O Hotel</a></li>
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/acomodacoes">Acomodações</a></li>
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/servicos">Serviços</a></li>
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/reservas">Reservas</a></li>
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/tarifas">Tarifas</a></li>
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/promocoes">Promoções</a></li>
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/parceiros">Parceiros</a></li>
-    		        <li><a class="ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/contato">Contato</a></li>
+    		        <li><a class="hotel ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/o-hotel">O Hotel</a></li>
+    		        <li><a class="acomodacoes ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/acomodacoes">Acomodações</a></li>
+    		        <li><a class="servicos ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/servicos">Serviços</a></li>
+    		        <li><a class="reservas ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/reservas">Reservas</a></li>
+    		        <li><a class="tarifas ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/tarifas">Tarifas</a></li>
+    		        <li><a class="promocoes ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/promocoes">Promoções</a></li>
+    		        <li><a class="parceiros ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/parceiros">Parceiros</a></li>
+    		        <li><a class="contato ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/contato">Contato</a></li>
     	      </ul>
             </div><!--/.navbar-collapse -->
           </div>
@@ -78,7 +78,7 @@
 
                             <div class="row titulo">
                                 <h2 class="col-sm-10 col-sm-offset-1">Minha reserva</h2>
-                                <button class="col-sm-1"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
+                                <button id="fechar-modal-form" class="col-sm-1 fechar-modal-form"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
                             </div>
 
                             <fieldset>
@@ -305,6 +305,106 @@
 
                             <div class="row">
                                 <input type="submit" class="col-xs-12 alpha omega ani-02-in-out" value="Finalizar minha reserva">
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contato" id="compensa-menu">
+
+            <div class="container-fluid">
+
+                <div class="row click-trap">
+
+                    <figure id="logo">
+                        <img src="<?php bloginfo('template_url') ?>/img/aton-logo-branca.png">
+                    </figure>
+
+                    <form class="aton-form col-sm-4 col-sm-offset-4">
+
+                        <div class="wrap-fields">
+
+                            <div class="row titulo">
+                                <h2 class="col-sm-10 col-sm-offset-1">Contato</h2>
+                                <button id="fechar-modal-form" class="col-sm-1 fechar-modal-form" onClick="return false;"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
+                            </div>
+
+                            <fieldset>
+
+                                <div class="row">
+                                    <div class="form-group g col-sm-12">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <label for="nome-reserva">
+                                                    <span class="col-sm-2"><p>Nome</p></span>
+                                                    <div id="" class="wrap-input col-sm-10">
+                                                        <input type="text" class="form-control nome" id="nome-reserva">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group g col-sm-12">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <label for="email-reserva">
+                                                    <span class="col-sm-2"><p>E-mail</p></span>
+                                                    <div id="" class="wrap-input col-sm-10">
+                                                        <input type="phone" class="form-control" id="email-reserva">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group g col-sm-5">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <label for="telefone-reserva">
+                                                    <span class="col-sm-5"><p>Telefone</p></span>
+                                                    <div id="" class="wrap-input col-sm-7">
+                                                        <input type="phone" class="form-control" id="telefone-reserva">
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+
+                            <fieldset>
+
+                                <div class="row">
+                                    <div class="form-group textarea col-sm-12">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <label for="observacoes-reserva">
+                                                    <span class="col-sm-3"><p>Mensagem</p></span>
+                                                    <div id="" class="wrap-input col-sm-9">
+                                                        <textarea class="form-control" id="observacoes-reserva" name="observacoes-reserva" rows="4" cols="50"></textarea>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </fieldset>
+
+                            <div class="row">
+                                <input type="submit" class="col-xs-12 alpha omega ani-02-in-out" value="Enviar">
                             </div>
 
                         </div>
