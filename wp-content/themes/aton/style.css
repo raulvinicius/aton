@@ -117,9 +117,40 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 
+.aton-form
+{
+	background: #eeeeee;
+	margin-bottom: 50px;
+	border-radius: 3px;
+}
+
 .aton-form .form-group
 {
 	margin-bottom: 30px;
+}
+
+.aton-form .titulo
+{
+	background: #ccc;
+	color: #7030a0;
+	border-radius: 3px 3px 0 0;
+	text-transform: uppercase;
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	height: 62px;
+	margin-bottom: 40px;
+}
+
+.aton-form .titulo h2
+{
+	font-size: 20px;
+}
+
+.aton-form .titulo button
+{
+	height: 62px;
+	background: none;
+	border: none;
 }
 
 .aton-form .form-group label
@@ -186,6 +217,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .aton-form .form-group textarea
 {
 	height: 150px;
+	border-top: 10px solid white;
+	border-bottom: 10px solid white;
 }
 
 .aton-form .form-group.g select
@@ -233,11 +266,30 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .aton-form .form-group.textarea label
 {
 	height: 150px;
+	line-height: 50px;
 }
 
 .aton-form textarea
 {
 	resize: none;
+}
+
+.aton-form input[type=submit]
+{
+	height: 85px;
+	background: #ffb525;
+	border-radius: 0 0 3px 3px;
+	border: 0;
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #7030a0;
+}
+
+.aton-form input[type=submit]:focus,
+.aton-form input[type=submit]:hover
+{
+	background: #ffaa1f;
 }
 
 
@@ -335,6 +387,17 @@ html body .navbar #navbar .navbar-nav li a:focus
 {
 	padding-right: 0;
 }
+
+.click-trap
+{
+	background: url('img/aton-bg-form-reserva.png');
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: 2000;
+	overflow: auto;
+}
+
 
 
 
@@ -972,51 +1035,12 @@ body
 	display: none;
 }
 
-#reservas .click-trap
-{
-	background: url('img/aton-bg-form-reserva.png');
-	height: 100vh;
-	width: 100vw;
-	position: fixed;
-	z-index: 2000;
-	overflow: auto;
-}
-
-#reservas #logo
+#reservas #logo,
+#contato #logo
 {
 	margin: 33px auto;
 	display: block;
 	text-align: center;
-}
-
-#reservas form
-{
-	background: #eeeeee;
-	margin-bottom: 50px;
-	border-radius: 3px;
-}
-
-#reservas form .titulo
-{
-	background: #ffb525;
-	color: #7030a0;
-	border-radius: 3px;
-	text-transform: uppercase;
-	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
-	text-align: center;
-	height: 62px;
-}
-
-#reservas form .titulo h2
-{
-	font-size: 20px;
-}
-
-#reservas form .titulo button
-{
-	height: 62px;
-	background: none;
-	border: none;
 }
 
 #reservas form #cidade-reserva
@@ -1150,20 +1174,15 @@ body
 	left: 20px;
 }
 
-#reservas form input[type=submit]
-{
-	height: 85px;
-	background: #ffb525;
-	border-radius: 0 0 3px 3px;
-	border: 0;
-	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 20px;
-	text-transform: uppercase;
-	color: #7030a0;
-}
 
-#reservas form input[type=submit]:focus,
-#reservas form input[type=submit]:hover
+
+
+
+
+
+/*-------------------CONTATO-------------------*/
+
+#contato
 {
-	background: #ffaa1f;
+	display: none;
 }
