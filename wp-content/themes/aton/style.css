@@ -292,7 +292,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	background: #ffaa1f;
 }
 
-
+.for-spider
+{
+	display: none;
+}
 
 
 
@@ -1025,11 +1028,6 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 
 /*-------------------RESERVAS-------------------*/
-body
-{
-	overflow: hidden;
-}
-
 #reservas 
 {
 	display: none;
@@ -1180,13 +1178,207 @@ body
 
 
 /*-------------------TARIFAS-------------------*/
+#tarifas
+{
+	background: url(img/aton-bg-tarifas.jpg);
+	font-family: "dinprolight", "Arial Narrow", Arial, sans-serif;
+	color: white;
+}
+
+#tarifas ul
+{
+	list-style: none;
+}
+
+#tarifas .quartos-tarifas
+{
+	background: white;
+	border-radius: 3px;
+	margin-top: 110px;
+}
+
+#tarifas .quartos-tarifas .right-align
+{
+	text-align: right;
+}
+
+#tarifas .quartos-tarifas header
+{
+	height: 182px;
+	background: url(img/aton-header-tarifa.jpg);
+	background-size: cover;
+}
+
+#tarifas .quartos-tarifas header h2
+{
+	background: url(img/aton-bg-titulo-tarifas-80.png);
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	font-size: 55px;
+	padding: 12px 22px 0 37px;
+	line-height: 42px;
+	margin-top: 64px;
+}
+
+#tarifas .quartos-tarifas ul
+{
+	padding: 0;
+	color: #8c8c8c;
+	margin: 23px 0 50px 0;
+}
+
+#tarifas .quartos-tarifas ul li
+{
+	height: 61px;
+	border-bottom: 1px solid #dddddd;
+	line-height: 61px;
+}
+
+#tarifas .quartos-tarifas ul .camas
+{
+	border: none;
+}
+
+#tarifas .quartos-tarifas h3
+{
+	font-size: 20px;
+}
+
+#tarifas .quartos-tarifas .tarifa-net
+{
+	background: #9129de;
+	height: 97px;
+}
+
+#tarifas .quartos-tarifas .tarifa-balcao
+{
+	background: #b656fe;
+	height: 97px;
+}
+
+#tarifas .quartos-tarifas .tarifa-net h3,
+#tarifas .quartos-tarifas .tarifa-balcao h3
+{
+	margin-bottom: 3px;
+}
+
+#tarifas .quartos-tarifas .tarifa-net span,
+#tarifas .quartos-tarifas .tarifa-balcao span
+{
+	color: #e8d7f7;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 19px;
+}
+
+#tarifas .quartos-tarifas .tarifa-balcao span
+{
+	color: #ecdbfd;
+}
+
+#tarifas .quartos-tarifas .tarifa-net p,
+#tarifas .quartos-tarifas .tarifa-balcao p
+{
+	font-size: 65px;
+	margin: 0;
+}
 
 
+#tarifas .quartos-tarifas .tarifa-net p span,
+#tarifas .quartos-tarifas .tarifa-balcao p span
+{
+	color: white;
+	font-size: 26px;
+	font-style: normal;
+	vertical-align: super;
+}
+
+#tarifas .quartos-tarifas .wrap-verificar
+{
+	margin-top: 46px;
+	height: 103px;
+	overflow: hidden;
+}
+
+#tarifas .quartos-tarifas .verificar
+{
+	height: 103px;
+	font-size: 40px;
+	text-transform: lowercase;
+	background: #ffb526;
+	border: none;
+	border-radius: 0 0 3px 3px;
+	outline: none;
+}
+
+#tarifas .quartos-tarifas .quartos-disponiveis
+{
+	height: 103px;
+	background: #dedede;
+	font-size: 26px;
+	color: #7330a3;
+	text-align: center;
+}
+
+#tarifas .quartos-tarifas .quartos-disponiveis p
+{
+	line-height: 31px;
+	margin-top: 19px;
+}
 
 
+#tarifas .quartos-tarifas .quartos-disponiveis .quartos-quantidade
+{
+	height: 103px;
+	background: #d4d4d6;
+	text-align: center;
+}
 
+#tarifas .quartos-tarifas .quartos-disponiveis span
+{
+	display: block;
+	width: 71px;
+	height: 25px;
+	line-height: 20px;
+	font-size: 38px;
+	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
+}
 
+#tarifas .quartos-tarifas .quartos-disponiveis button
+{
+	background: none;
+	width: 62px;
+	height: 37px;
+	padding: 0;
+	border: none;
+	line-height: 0;
+}
 
+#tarifas .quartos-tarifas .quartos-disponiveis .seta-down img,
+#tarifas .quartos-tarifas .quartos-disponiveis .seta-up
+{
+	vertical-align: super;
+}
+
+#tarifas .quartos-tarifas .quartos-disponiveis .wrap-ok
+{
+	height: 103px;
+	line-height: 103px;
+}
+
+#tarifas .quartos-tarifas .quartos-disponiveis .bt-ok
+{
+	width: 53px;
+	height: 42px;
+	background: #7030a0;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: solid 1px #c7c7c7;
+	border-radius: 3px;
+	outline: none;
+}
 
 
 
