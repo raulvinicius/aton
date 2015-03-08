@@ -179,7 +179,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .aton-form .form-group.g label span
 {
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .aton-form .form-group label .wrap-input
@@ -195,7 +195,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	background: white;
 	box-shadow: 2px 2px 0 #cbcbcb;
 	border-radius: 0 2px 2px 0;
-	padding: 8px 10px 7px;
 	border: 0;
 	height: 28px;
 	-webkit-box-shadow: none;
@@ -228,7 +227,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .aton-form .form-group.g input
 {
-	padding: 25px 10px;
+	padding: 0 10px;
+	height: 50px;
 }
 
 .aton-form .form-group .nome
@@ -297,6 +297,360 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 
 
+@media (min-width: 1891px) {
+
+	#servicos ul li:nth-child(5n+4)
+	{
+		margin-left: 300px;
+	}
+
+}
+
+
+@media (min-width: 1579px) and (max-width: 1890px) {
+
+	#servicos ul li:nth-child(4n+3)
+	{
+		margin-left: 300px;
+	}
+
+	html body #servicos ul
+	{
+		width: 1470px;
+	}
+
+}
+
+
+@media (min-width: 1266px) and (max-width: 1578px) {
+
+	#servicos ul li:nth-child(3n+3)
+	{
+		margin-left: 300px;
+	}
+
+	html body #servicos ul
+	{
+		width: 1170px;
+	}
+
+}
+
+
+@media (max-width: 1265px) {
+
+	html body #servicos ul
+	{
+		padding-bottom: 225px;
+	}
+
+	html body #servicos ul li
+	{
+		height: 350px;
+		width: 350px;
+		margin-bottom: -175px;
+	}
+
+	html body #servicos ul li i[class|=ico]
+	{
+		width: 80px;
+		height: 80px;
+		margin-top: 70px;
+		background-size: contain;
+		background-position: center;
+	}
+
+	html body #servicos ul li h2
+	{
+		font-size: 20px;
+	}
+
+	html body #servicos ul li p
+	{
+		font-size: 16px;
+		padding: 0 30px;
+	}
+
+	html body #servicos ul li h2,
+	html body #servicos ul li p
+	{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+}
+
+
+@media (min-width: 1110px) and (max-width: 1265px) {
+
+	#servicos ul li:nth-child(5n+4)
+	{
+		margin-left: 175px;
+	}
+
+	html body #servicos ul
+	{
+		width: 1020px;
+	}
+
+}
+
+
+@media (min-width: 928px) and (max-width: 1109px) {
+
+	#servicos ul li:nth-child(4n+3)
+	{
+		margin-left: 175px;
+	}
+
+	html body #servicos ul
+	{
+		width: 850px;
+	}
+
+}
+
+@media (min-width: 745px) and (max-width: 927px) {
+
+	#servicos ul li:nth-child(3n+3)
+	{
+		margin-left: 175px;
+	}
+
+	html body #servicos ul
+	{
+		width: 670px;
+	}
+
+}
+
+@media (max-width: 744px) {
+
+	html body #servicos ul li
+	{
+		background: none;
+		background-color: white;
+		margin-bottom: 20px;
+		width: 48%;
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+
+	html body #servicos ul
+	{
+		padding-bottom: 50px;
+	}
+
+}
+
+
+@media (max-width: 545px) {
+
+	html body #servicos ul li
+	{
+		width: 100%;
+	}
+
+}
+
+
+@media(max-width: 1570px) {
+
+	html body #acomodacoes .one-col figcaption h2,
+	html body #acomodacoes .two-col figcaption h2,
+	html body #acomodacoes .three-col figcaption h2
+	{
+		font-size: 30px;
+	}
+
+	html body #acomodacoes .four-col figcaption h2
+	{
+		font-size: 60px;
+	}
+
+}
+
+
+@media(max-width: 1200px) {
+
+	html body .navbar .nav a
+	{
+	    font-size: 14px !important;
+	    padding-left: 9px;
+	    padding-right: 9px;
+	}
+
+	html body #hotel #sobre #vantagens li
+	{
+		font-size: 18px;
+	}
+
+	html body #hotel #sobre #vantagens li h3
+	{
+		font-size: 24px;
+	}
+
+}
+
+
+@media(max-width: 992px) {
+
+	html body .navbar #navbar .navbar-nav li a
+	{
+		font-size: 16px !important;
+	    padding: 9px;
+	    line-height: 23px !important;
+	}
+
+	html body .navbar #navbar.navbar-collapse
+	{
+		border: 0;
+	}
+
+	html body .navbar #navbar .nav.navbar-nav
+	{
+		margin-top: 0;
+		padding-top: 5px;
+		height: auto;
+	}
+
+	html body #hotel #sobre #vantagens li
+	{
+		font-size: 20px !important;
+	}
+
+	html body #hotel #sobre #vantagens li figure
+	{
+		width: 23.8%;
+	}
+
+	html body #hotel #sobre #vantagens li#formalidade
+	{
+		height: 189px;
+	}
+
+	html body #hotel #sobre #vantagens li h3
+	{
+		font-size: 26px !important;
+	}
+
+	html body #acomodacoes .four-col figcaption h2
+	{
+		font-size: 50px;
+	}
+}
+
+
+@media(max-width: 767px) {
+
+	html body #home.chamada
+	{
+		background-attachment: fixed;
+	}
+
+	html body .chamada#home hgroup
+	{
+		margin-top: 60px;
+		height: auto;
+	}
+
+	html body .chamada#home #form-pre-reserva
+	{
+		margin-top: 40px;
+		padding-top: 50px;
+		padding-bottom: 90px;
+		width: 350px;
+		height: auto;
+		float: right;
+	}
+
+	html body .chamada#home #form-pre-reserva .form-group,
+	html body .chamada#home #form-pre-reserva .form-group label
+	{
+		height: 50px;
+		line-height: 50px;
+	}
+
+	html body .chamada#home #form-pre-reserva .form-group select
+	{
+		height: 50px;
+	}
+
+	html body .chamada#home #form-pre-reserva .form-group input
+	{
+		padding: 0 10px;
+		height: 50px;
+	}
+
+	html body .col-form-pre-reserva
+	{
+		padding-right: 20px;
+	}
+
+	html body .seta-rolagem
+	{
+		display: none;
+	}
+
+	html body #hotel #sobre #titulo
+	{
+		height: 400px;
+		padding-top: 50px;
+	}
+
+	html body #hotel #sobre #intro-vantagens
+	{
+		min-height: auto;
+	}
+
+	html body #hotel #sobre #intro-vantagens p
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	html body #acomodacoes li
+	{
+		height: auto !important;
+		padding-left: 0;
+		margin-bottom: 20px;
+	}
+
+	html body #acomodacoes li figcaption
+	{
+		height: auto !important;
+		padding: 100px 20px;
+	}
+
+	html body #acomodacoes li .wrap-img
+	{
+		height: auto !important;
+	}
+
+	html body #acomodacoes li .wrap-img img
+	{
+		width: 100%;
+	}
+
+}
+
+
+@media (max-width: 435px){
+
+	html body #home.mapa .ico-onde-estamos
+	{
+		display: block;
+		margin: 40px auto 0;
+	}
+
+	html body #home.mapa #titulo-onde-estamos
+	{
+		text-align: center;
+		display: block;
+		margin-top: 0;
+	}
+
+}
 
 
 
@@ -338,12 +692,20 @@ html body .navbar #navbar .navbar-nav
 	height: 91px;
 	margin-top: 13px;
 	padding-left: 20px;
+	background: white;
+}
+
+
+html body .navbar #navbar.navbar-collapse
+{
+	border: 0;
 }
 
 
 html body .navbar #navbar .navbar-nav li
 {
 	text-transform: uppercase;
+	display: inline;
 }
 
 
@@ -408,7 +770,7 @@ html body .navbar #navbar .navbar-nav li a:focus
 #home.chamada
 {
 	background: url('img/aton-destaque-home.jpg') top center no-repeat;
-	height: 100%;
+	min-height: 100%;
 	position: relative;	
 }
 
@@ -421,32 +783,34 @@ html body .navbar #navbar .navbar-nav li a:focus
 	font-weight: normal;
 	line-height: 30px;
 	height: 168px;
-	margin-top: 320px;
+	margin-top: 300px;
 }
 
-#home.chamada hgroup h2,
-#home.chamada hgroup h3
+#home.chamada hgroup h2 span,
+#home.chamada hgroup h3 span
 {
 	background: url('img/aton-bg-roxo-80.png');
-	display: inline-block;
+	/*display: inline-block;*/
 	margin: 0;
 }
 
 #home.chamada hgroup h2
 {
-	padding: 20px 30px 10px;
+	margin-bottom: -20px;
+	/*padding: 20px 30px 10px;*/
 	font-size: 72px;
 }
 
 #home.chamada hgroup h3
 {
-	padding: 5px 30px 10px;
+	/*padding: 5px 30px 10px;*/
 	font-size: 40px;
 }
 
 #home.chamada #form-pre-reserva
 {
-	background: url('img/aton-bg-form-reserva-home.png') top center no-repeat;
+	/*background: url('img/aton-bg-form-reserva-home.png') top right no-repeat;*/
+	background: #eee;
 	margin-top: 300px;
 	padding-top: 20px;
 	height: 320px;
@@ -454,14 +818,13 @@ html body .navbar #navbar .navbar-nav li a:focus
 	position: relative;
 }
 
-#home.chamada #form-pre-reserva button
+#home.chamada #form-pre-reserva input[type=submit]
 {
 	position: absolute;
-	top: 263px;
-	right: 0;
-	background: url('img/aton-bg-bt-reserva-home.png') top right no-repeat;
-	width: 361px;
-	height: 52px;
+	bottom: 0;
+	background: #7030a0;
+	width: 100%;
+	height: 72px;
 	border-radius: 0;
 	border: none;
 	box-shadow: none;
@@ -473,10 +836,11 @@ html body .navbar #navbar .navbar-nav li a:focus
 	text-transform: uppercase;
 }
 
-#home.chamada #form-pre-reserva button:hover,
-#home.chamada #form-pre-reserva button:focus
+#home.chamada #form-pre-reserva input[type=submit]:hover,
+#home.chamada #form-pre-reserva input[type=submit]:focus
 {
 	color: white;
+	background: #ffb525;
 }
 
 #home.chamada .seta-rolagem
@@ -499,13 +863,18 @@ html body .navbar #navbar .navbar-nav li a:focus
 #home.tour,
 #home.mapa
 {
-	height: 597px;
+	height: 600px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 #home.tour
 {
 	background: url('img/aton-bg-tour.jpg');
 	text-align: center;
+	padding-top: 0.1px;
 }
 
 #home.tour figure
@@ -555,6 +924,11 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 #home.mapa #endereco
 {
+	min-height: 60px;
+}
+
+#home.mapa #endereco
+{
 	color: white;
 	font-size: 20px;
 	margin-left: 20px;
@@ -564,8 +938,9 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 #home.mapa .map
 {
-	background: url('img/aton-bg-maps-home.jpg');
-	height: 382px;
+	background: url('img/aton-bg-maps-home.jpg') center;
+	background-size: cover;
+	height: 375px;
 }
 
 #home.mapa ul
@@ -603,7 +978,6 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 #hotel #sobre
 {
-	height: 1006px;
 	background: #eeeeee
 }
 
@@ -611,8 +985,6 @@ html body .navbar #navbar .navbar-nav li a:focus
 {
 	background: url('img/aton-bg-titulo-hotel.jpg') right top no-repeat;
 	background-size: cover;
-	height: 940px;
-	position: relative;
 }
 
 #hotel #titulo h2
@@ -635,7 +1007,7 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 #hotel #intro-vantagens
 {
-	height: 360px;
+	min-height: 360px;
 	text-align: center;
 	font-size: 36px;
 	color: #666;
@@ -644,9 +1016,10 @@ html body .navbar #navbar .navbar-nav li a:focus
 #hotel #intro-vantagens p
 {
 	margin-top: 100px;
+	margin-bottom: 100px;
 	padding-left: 140px;
 	padding-right: 140px;
-	height: 100px;
+	min-height: 100px;
 }
 
 #hotel #vantagens
@@ -664,8 +1037,37 @@ html body .navbar #navbar .navbar-nav li a:focus
 	margin-bottom: 20px;
 	color: white;
 	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
-	font-size: 26px;
+	font-size: 20px;
 	padding-right: 20px;
+}
+
+#hotel #vantagens li figure img
+{
+	width: 100%;
+}
+
+#hotel #vantagens li#formalidade figure
+{
+	width: 35.8%;
+	height: 320px;
+}
+
+#hotel #vantagens li#internet figure
+{
+	width: 23.8%;
+	height: 320px;
+}
+
+#hotel #vantagens li#tarifas figure
+{
+	width: 21.6%;
+	height: 320px;
+}
+
+#hotel #vantagens li#fidelidade figure
+{
+	width: 14%;
+	height: 320px;
 }
 
 #hotel #vantagens li.roxo
@@ -689,7 +1091,7 @@ html body .navbar #navbar .navbar-nav li a:focus
 #hotel #vantagens li h3
 {
 	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 30px;
+	font-size: 26px;
 	margin-top: 25px;
 }
 
@@ -753,7 +1155,6 @@ html body .navbar #navbar .navbar-nav li a:focus
 	background: white;
 	border-radius: 3px;
 	width: 80%;
-	height: 280px;
 	padding: 20px 2%;
 	text-align: center;
 	font-family: 'dinpromedium', 'Arial Narrow', Arial, sans-serif;
@@ -806,7 +1207,12 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 #acomodacoes ul li
 {
-	float: left;
+	color: white;
+}
+
+#acomodacoes ul li .wrap-img
+{
+	overflow: hidden;
 }
 
 #acomodacoes ul li figcaption
@@ -814,26 +1220,21 @@ html body .navbar #navbar .navbar-nav li a:focus
 	padding: 30px;
 }
 
-#acomodacoes .wrap-img,
-#acomodacoes figcaption
+#acomodacoes li figcaption #wrap-desc-acomodacao
 {
-	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding: 20px;
+	width: 100%;
+	display: table;
 }
 
-#acomodacoes .one-col,
-#acomodacoes .two-col,
-#acomodacoes .three-col,
-#acomodacoes .four-col
+#acomodacoes li figcaption h2
 {
-	color: white;
-}
-
-#acomodacoes .one-col .wrap-img,
-#acomodacoes .two-col .wrap-img,
-#acomodacoes .three-col .wrap-img,
-#acomodacoes .four-col .wrap-img
-{
-	overflow: hidden;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #acomodacoes .one-col figcaption h2,
@@ -842,14 +1243,12 @@ html body .navbar #navbar .navbar-nav li a:focus
 {
 	font-size: 40px;
 	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
-    line-height: 370px;
 }
 
 #acomodacoes .four-col figcaption h2
 {
 	font-size: 76px;
 	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
-	line-height: 550px;
 }
 
 #acomodacoes .two-col,
@@ -867,11 +1266,6 @@ html body .navbar #navbar .navbar-nav li a:focus
 #acomodacoes .one-col figcaption
 {
 	height: 240px;
-}
-
-#acomodacoes .one-col figcaption h2
-{
-	line-height: 150px;
 }
 
 #acomodacoes .two-col
@@ -907,35 +1301,36 @@ html body .navbar #navbar .navbar-nav li a:focus
 {
 	background: url('img/aton-bg-servicos.jpg') center no-repeat;
 	background-size: cover;
-	padding-bottom: 350px;
+	min-height: 100%;
 }
 
 #servicos ul
 {
 	list-style: none;
-	margin: 30px 0 0;
-	text-align: center;
+	margin: 30px auto 0;
+	padding: 0;
+	width: 96%;
+	padding-bottom: 350px;
 }
 
-#servicos ul .row
+#servicos ul li
 {
-	display: inline-block;
-	width: 100%;
-	height: 300px;
-}
-
-#servicos .row.offset
-{
-	margin-left: 16.66666666%;	
-}
-
-#servicos li
-{
-	height: 611px;
+	float: left;
+	margin-bottom: -300px;
+	height: 600px;
+	width: 600px;
 	color: #7030a0;
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+#servicos ul li h2,
+#servicos ul li p
+{
+	text-align: center;
+	width: 80%;
+	margin: 20px auto;
 }
 
 #servicos li.bg-100
@@ -1016,7 +1411,7 @@ html body .navbar #navbar .navbar-nav li a:focus
 {
 	font-size: 22px;
 	font-family: 'dinprolight', 'Arial Narrow', Arial, sans-serif;
-	padding: 0 110px;
+	/*padding: 0 110px;*/
 }
 
 
@@ -1025,11 +1420,6 @@ html body .navbar #navbar .navbar-nav li a:focus
 
 
 /*-------------------RESERVAS-------------------*/
-body
-{
-	overflow: hidden;
-}
-
 #reservas 
 {
 	display: none;

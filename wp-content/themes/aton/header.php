@@ -21,7 +21,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap.css">
         <style>
         </style>
         <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/bootstrap-theme.min.css">
@@ -38,7 +38,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="">
             <div class="navbar-header">
-    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    			<button type="button" class="ani-02-in-out navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
     				<span class="sr-only">Toggle navigation</span>
     				<span class="icon-bar"></span>
     				<span class="icon-bar"></span>
@@ -48,7 +48,7 @@
             </div>
 
             <div id="navbar" class="navbar-collapse collapse">
-    			<ul class="nav navbar-nav">
+    			<ul class="nav navbar-nav ">
     		        <li><a class="hotel ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/o-hotel">O Hotel</a></li>
     		        <li><a class="acomodacoes ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/acomodacoes">Acomodações</a></li>
     		        <li><a class="servicos ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/servicos">Serviços</a></li>
@@ -292,8 +292,7 @@
                                                 <label for="observacoes-reserva">
                                                     <span class="col-sm-3"><p>Observações e comentários</p></span>
                                                     <div id="" class="wrap-input col-sm-9">
-                                                        <textarea class="form-control" id="observacoes-reserva" name="observacoes-reserva" rows="4" cols="50">
-                                                        </textarea>
+                                                        <textarea class="form-control" id="observacoes-reserva" name="observacoes-reserva" rows="4" cols="50"></textarea>
                                                     </div>
                                                 </label>
                                             </div>
@@ -310,6 +309,8 @@
                         </div>
 
                     </form>
+
+                    <div class="clearfix"></div>
 
                 </div>
 
@@ -410,6 +411,8 @@
                         </div>
 
                     </form>
+
+                    <div class="clearfix"></div>
 
                 </div>
 

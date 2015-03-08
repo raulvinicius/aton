@@ -8,9 +8,10 @@
 			<div class="row">
 				<div id="titulo" class="col-sm-4 alpha">
 					<h2><span>Entre,<br>fique a vontade</span></h2>
+					<div class="clearfix"></div>
 				</div>
 
-				<div class="col-sm-8">
+				<div class="col-sm-8 wrap-vantagens">
 					<div class="row">
 
 						<div id="intro-vantagens" class="col-sm-12">
@@ -21,18 +22,18 @@
 							<div class="row">
 								<ul id="vantagens">
 
-									<div class="col-sm-6">
-										<li>
+									<div class="col-md-6">
+										<li id="formalidade">
 											<figure><img src="<?php bloginfo("template_url") ?>/img/aton-icon-relogio-hotel.png"></figure>
 											<h3>Menos formalidades</h3>
 											<p>Havendo vaga, a entrada é permitida a partir das 10h, da mesma forma que oferecemos cortesia para check-out até as 14h.</p>
 										</li>
 									</div>
 
-									<div class="col-sm-6 bg-roxo">
+									<div class="col-md-6 bg-roxo">
 										<div class="row">
 											<div class="col-sm-12">
-												<li class="roxo">
+												<li id="internet" class="roxo">
 													<figure><img src="<?php bloginfo("template_url") ?>/img/aton-icon-internet-hotel.png"></figure>
 													<h3>Internet gratuita</h3>
 													<p>Acesso à internet wireless sem custo e sem limite.</p>
@@ -40,7 +41,7 @@
 											</div>
 
 											<div class="col-sm-12">
-												<li class="roxo">
+												<li id="tarifas" class="roxo">
 													<figure><img src="<?php bloginfo("template_url") ?>/img/aton-icon-plano-de-tarifas-hotel.png"></figure>
 													<h3>Para empresas e agências</h3>
 													<p>Plano de tarifas sem reajuste por 12 meses.</p>

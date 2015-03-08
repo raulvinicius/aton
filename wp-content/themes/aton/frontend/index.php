@@ -4,22 +4,22 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-7 col-sm-6">
 				<hgroup>
-					<h2>Sua casa fora de casa</h2>
-					<h3>Conforto e tranquilidade em Goiânia</h3>
+					<h2><span>Sua casa fora de casa</span></h2>
+					<h3><span>Conforto e tranquilidade em Goiânia</span></h3>
 				</hgroup>
 			</div>
 
-			<div class="omega col-lg-4">
+			<div class="col-form-pre-reserva omega col-lg-5 col-sm-6">
 				<form id="form-pre-reserva" class="aton-form container-fluid">
 					<div class="row">
 						<div class="form-group g col-sm-12">
 							<div class="container-fluid">
 								<div class="row">
 									<label for="nome-reserva">
-										<span class="col-sm-2"><p>Nome</p></span>
-										<div id="" class="wrap-input col-sm-10">
+										<span class="col-xs-4 col-sm-2 "><p>Nome</p></span>
+										<div id="" class="wrap-input col-xs-8 col-sm-10">
 											<input type="text" class="form-control nome" id="nome-reserva">
 										</div>
 									</label>
@@ -28,24 +28,24 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="form-group col-sm-5">
+						<div class="form-group col-sm-6">
 							<div class="container-fluid">
-								<div class="row">
+								<div class="row"> 
 									<label for="telefone-reserva">
-										<span class="col-sm-5"><p>Telefone</p></span>
-										<div id="" class="wrap-input col-sm-7">
+										<span class="col-xs-4 col-sm-5 col-lg-4"><p>Telefone</p></span>
+										<div id="" class="wrap-input col-xs-8 col-sm-7 col-lg-8">
 											<input type="phone" class="form-control" id="telefone-reserva">
 										</div>
 									</label>
 								</div>
 							</div>
 						</div>
-						<div class="form-group col-sm-7">
+						<div class="form-group col-sm-6">
 							<div class="container-fluid">
 								<div class="row">
 									<label for="email-reserva">
-										<span class="col-sm-3"><p>E-mail</p></span>
-										<div class="wrap-input col-sm-9">
+										<span class="col-xs-4 col-sm-4"><p>E-mail</p></span>
+										<div class="wrap-input col-xs-8 col-sm-8">
 											<input type="email" class="form-control" id="email-reserva">
 										</div>
 									</label>
@@ -54,25 +54,25 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="form-group col-sm-5">
+						<div class="form-group col-sm-6 col-md-5">
 							<div class="container-fluid">
 								<div class="row">
 									<label for="entrada-reserva">
-										<span class="col-sm-4"><p>Entrada</p></span>
-										<div class="wrap-input col-sm-8">
-											<input type="date" class="form-control" id="entrada-reserva">
+										<span class="col-xs-4 col-sm-5 col-lg-4"><p>Entrada</p></span>
+										<div class="wrap-input col-xs-8 col-sm-7 col-lg-8">
+											<input type="text" class="form-control" id="entrada-reserva">
 										</div>
 									</label>
 								</div>
 							</div>
 						</div>
-						<div class="form-group col-sm-5">
+						<div class="form-group col-sm-6 col-md-5">
 							<div class="container-fluid">
 								<div class="row">
 									<label for="saida-reserva">
-										<span class="col-sm-4"><p>Saída</p></span>
-										<div class="wrap-input col-sm-8">
-											<input type="date" class="form-control" id="saida-reserva">
+										<span class="col-xs-4 col-sm-5 col-lg-4"><p>Saída</p></span>
+										<div class="wrap-input col-xs-8 col-sm-7 col-lg-8">
+											<input type="text" class="form-control" id="saida-reserva">
 										</div>
 									</label>
 								</div>
@@ -80,8 +80,9 @@
 						</div>
 					</div>
 					<div class="row">
-						<button type="submit" class="ani-02-in-out btn btn-default">Fazer minha reserva</button>
+						<input type="submit" class="ani-02-in-out" value="Fazer minha reserva">
 					</div>
+					<div class="clearfix"></div>
 				</form>
 			</div>
 		</div>
@@ -94,7 +95,7 @@
 <div class="container-fluid">
 	<div class="row">
 
-		<section id="home" class="tour col-sm-6">
+		<section id="home" class="tour col-lg-5 col-md-4">
 
 			<figure>
 
@@ -107,16 +108,15 @@
 
 		</section>
 		
-		<section id="home" class="mapa col-sm-6">
+		<section id="home" class="mapa col-lg-7 col-md-8">
 
 			<div class="row">
 
 				<div class="col-sm-12">
 
 					<i class="ico-onde-estamos"></i>
-					<h2>Onde estamos</h2>
-					<p id="endereco">Av. Anhanguera, nº 5308 - Centro (ao lado das Lojas Pernambucanas) <br>
-						Goiânia-GO, CEP: 74043-010</p>
+					<h2 id="titulo-onde-estamos">Onde estamos</h2>
+					<p id="endereco">Av. Anhanguera, nº 5308 - Centro (ao lado das Lojas Pernambucanas) Goiânia-GO, CEP: 74043-010</p>
 
 				</div>
 
