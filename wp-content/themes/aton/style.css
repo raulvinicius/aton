@@ -151,6 +151,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	height: 62px;
 	background: none;
 	border: none;
+	text-align: right;
 }
 
 .aton-form .form-group label
@@ -177,9 +178,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	line-height: 50px;
 }
 
+.aton-form .form-group label span
+{
+	line-height: 20px;
+	padding-top: 4px;
+}
+
 .aton-form .form-group.g label span
 {
-	/*text-align: center;*/
+	padding-top: 15px;
 }
 
 .aton-form .form-group label .wrap-input
@@ -630,11 +637,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 		float: right;
 	}
 
+	html body .aton-form .form-group label span
+	{
+		padding-top: 15px;
+	}
+
 	html body .chamada#home #form-pre-reserva .form-group,
 	html body .chamada#home #form-pre-reserva .form-group label
 	{
 		height: 50px;
-		line-height: 50px;
 	}
 
 	html body .chamada#home #form-pre-reserva .form-group select
@@ -1563,6 +1574,11 @@ html body .navbar #navbar .navbar-nav li a:focus
 	text-transform: uppercase;
 }
 
+#reservas form #quartos li figure
+{
+	overflow: hidden;
+}
+
 #reservas form #quartos li label
 {
 	font-weight: normal;
@@ -1665,8 +1681,8 @@ html body .navbar #navbar .navbar-nav li a:focus
 #tarifas .quartos-tarifas header
 {
 	height: 182px;
-	background: url(img/aton-header-tarifa.jpg);
 	background-size: cover;
+	border-radius: 3px 3px 0 0;
 }
 
 #tarifas .quartos-tarifas.cama-extra header

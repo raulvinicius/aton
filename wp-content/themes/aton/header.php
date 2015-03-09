@@ -54,8 +54,8 @@
     		        <li><a class="servicos ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/servicos">Serviços</a></li>
     		        <li><a class="reservas ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/reservas">Reservas</a></li>
     		        <li><a class="tarifas ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/tarifas">Tarifas</a></li>
-    		        <li><a class="promocoes ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/promocoes">Promoções</a></li>
-    		        <li><a class="parceiros ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/parceiros">Parceiros</a></li>
+    		        <!-- <li><a class="promocoes ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/promocoes">Promoções</a></li> -->
+    		        <!-- <li><a class="parceiros ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/parceiros">Parceiros</a></li> -->
     		        <li><a class="contato ani-02-in-out" href="<?php bloginfo('url'); echo $frontendUrl ?>/contato">Contato</a></li>
     	      </ul>
             </div><!--/.navbar-collapse -->
@@ -72,24 +72,24 @@
                         <img src="<?php bloginfo('template_url') ?>/img/aton-logo-branca.png">
                     </figure>
 
-                    <form class="aton-form col-sm-4 col-sm-offset-4">
+                    <form class="aton-form col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2">
 
                         <div class="wrap-fields">
 
                             <div class="row titulo">
-                                <h2 class="col-sm-10 col-sm-offset-1">Minha reserva</h2>
-                                <button id="fechar-modal-form" class="col-sm-1 fechar-modal-form"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
+                                <h2 class="col-xs-9 col-sm-10 col-xs-offset-1">Minha reserva</h2>
+                                <button id="fechar-modal-form" class="col-xs-2 col-sm-1 fechar-modal-form"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
                             </div>
 
                             <fieldset>
 
                                 <div class="row">
-                                    <div class="form-group g col-sm-12">
+                                    <div class="form-group g col-xs-12">
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="nome-reserva">
-                                                    <span class="col-sm-2"><p>Nome</p></span>
-                                                    <div id="" class="wrap-input col-sm-10">
+                                                    <span class="col-xs-2"><p>Nome</p></span>
+                                                    <div id="" class="wrap-input col-xs-10">
                                                         <input type="text" class="form-control nome" id="nome-reserva">
                                                     </div>
                                                 </label>
@@ -98,12 +98,12 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="form-group g col-sm-12">
+                                    <div class="form-group g col-xs-12">
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="email-reserva">
-                                                    <span class="col-sm-2"><p>E-mail</p></span>
-                                                    <div id="" class="wrap-input col-sm-10">
+                                                    <span class="col-xs-2"><p>E-mail</p></span>
+                                                    <div id="" class="wrap-input col-xs-10">
                                                         <input type="phone" class="form-control" id="email-reserva">
                                                     </div>
                                                 </label>
@@ -116,8 +116,8 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="telefone-reserva">
-                                                    <span class="col-sm-5"><p>Telefone</p></span>
-                                                    <div id="" class="wrap-input col-sm-7">
+                                                    <span class="col-xs-2 col-sm-5"><p>Telefone</p></span>
+                                                    <div id="" class="wrap-input col-xs-10 col-sm-7">
                                                         <input type="phone" class="form-control" id="telefone-reserva">
                                                     </div>
                                                 </label>
@@ -128,12 +128,12 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="cidade-reserva">
-                                                    <span class="col-sm-3"><p>Cidade</p></span>
-                                                    <div class="wrap-input col-sm-6">
+                                                    <span class="col-xs-2 col-sm-3"><p>Cidade</p></span>
+                                                    <div class="wrap-input col-xs-7 col-sm-6">
                                                         <input type="text" class="form-control" id="cidade-reserva">
 
                                                     </div>
-                                                    <div class="wrap-input wrap-uf-reserva col-sm-3">
+                                                    <div class="wrap-input wrap-uf-reserva col-xs-3">
 
                                                         <select id="uf-reserva" name="uf-reserva" class="form-control">
                                                             <option value="">UF</option>
@@ -178,25 +178,25 @@
                             <fieldset>
 
                                 <div class="row">
-                                    <div class="form-group g col-sm-5">
+                                    <div class="form-group g col-sm-6">
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="entrada-reserva">
-                                                    <span class="col-sm-4"><p>Entrada</p></span>
-                                                    <div class="wrap-input col-sm-8">
-                                                        <input type="date" class="form-control" id="entrada-reserva">
+                                                    <span class="col-xs-2 col-sm-4"><p>Entrada</p></span>
+                                                    <div class="wrap-input col-xs-10 col-sm-8">
+                                                        <input type="text" class="form-control" id="entrada-reserva">
                                                     </div>
                                                 </label>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group g col-sm-5">
+                                    <div class="form-group g col-sm-6">
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="saida-reserva">
-                                                    <span class="col-sm-4"><p>Saída</p></span>
-                                                    <div class="wrap-input col-sm-8">
-                                                        <input type="date" class="form-control" id="saida-reserva">
+                                                    <span class="col-xs-2 col-sm-4"><p>Saída</p></span>
+                                                    <div class="wrap-input col-xs-10 col-sm-8">
+                                                        <input type="text" class="form-control" id="saida-reserva">
                                                     </div>
                                                 </label>
                                             </div>
@@ -214,7 +214,7 @@
 
                                 <ul id="quartos">
 
-                                    <li class="col-sm-12 alpha omega">
+                                    <li class="col-xs-12 alpha omega">
 
                                         <figure class="col-xs-2 alpha">
                                             <img src="<?php bloginfo('template_url') ?>/img/aton-tb-quarto-reserva.jpg">
@@ -222,13 +222,13 @@
 
                                         <div class="col-xs-8">
                                             <div class="row opcao-1">
-                                                <div class="col-sm-2" id="num">
+                                                <div class="col-xs-2" id="num">
                                                     <button class="seta-up"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-seta-cima-reservas.png"></button>
                                                     <span>01</span>
                                                     <button class="seta-down"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-seta-baixo-reservas.png"></button>
                                                 </div>
 
-                                                <div class="col-sm-10">
+                                                <div class="col-xs-10">
 
                                                     <p>Quarto duplo</p>
 
@@ -238,7 +238,7 @@
                                             <div class="row opcao-2">
                                                 <input type="hidden" name="quantidade-quarto-duplo">
 
-                                                <label for="cama-extra-quarto-duplo" class="col-sm-12">
+                                                <label for="cama-extra-quarto-duplo" class="col-xs-12">
                                                     <input type="checkbox" name="cama-extra-quarto-duplo" id="cama-extra-quarto-duplo" value="sim" /> <span id="ck-box-replace">
                                                     </span>Cama Extra
                                                 </label>
@@ -262,12 +262,12 @@
                             <fieldset>
 
                                 <div class="row">
-                                    <div class="form-group g col-sm-12">
+                                    <div class="form-group g col-xs-12">
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="pagamento-reserva">
-                                                    <span class="col-sm-4"><p>Forma de pagamento</p></span>
-                                                    <div id="" class="wrap-input col-sm-8">
+                                                    <span class="col-xs-5 col-sm-4"><p>Forma de pagamento</p></span>
+                                                    <div id="" class="wrap-input col-xs-7 col-sm-8">
                                                         <select class="form-control" id="pagamento-reserva" name="pagamento-reserva">
                                                             <option value=""></option>
                                                             <option value="Dinheiro">Dinheiro</option>
@@ -286,12 +286,12 @@
                             <fieldset>
 
                                 <div class="row">
-                                    <div class="form-group textarea col-sm-12">
+                                    <div class="form-group textarea col-xs-12">
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="observacoes-reserva">
-                                                    <span class="col-sm-3"><p>Observações e comentários</p></span>
-                                                    <div id="" class="wrap-input col-sm-9">
+                                                    <span class="col-xs-3"><p>Observações e comentários</p></span>
+                                                    <div id="" class="wrap-input col-xs-9">
                                                         <textarea class="form-control" id="observacoes-reserva" name="observacoes-reserva" rows="4" cols="50"></textarea>
                                                     </div>
                                                 </label>
@@ -329,24 +329,24 @@
                         <img src="<?php bloginfo('template_url') ?>/img/aton-logo-branca.png">
                     </figure>
 
-                    <form class="aton-form col-sm-4 col-sm-offset-4">
+                    <form class="aton-form col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2">
 
                         <div class="wrap-fields">
 
                             <div class="row titulo">
-                                <h2 class="col-sm-10 col-sm-offset-1">Contato</h2>
-                                <button id="fechar-modal-form" class="col-sm-1 fechar-modal-form" onClick="return false;"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
+                                <h2 class="col-xs-9 col-sm-10 col-xs-offset-1">Contato</h2>
+                                <button id="fechar-modal-form" class="col-xs-2 col-sm-1 fechar-modal-form" onClick="return false;"><img src="<?php bloginfo('template_url') ?>/img/aton-icon-fechar-modal.png"></button>
                             </div>
 
                             <fieldset>
 
                                 <div class="row">
-                                    <div class="form-group g col-sm-12">
+                                    <div class="form-group g col-xs-12">
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="nome-reserva">
-                                                    <span class="col-sm-2"><p>Nome</p></span>
-                                                    <div id="" class="wrap-input col-sm-10">
+                                                    <span class="col-xs-2"><p>Nome</p></span>
+                                                    <div id="" class="wrap-input col-xs-10">
                                                         <input type="text" class="form-control nome" id="nome-reserva">
                                                     </div>
                                                 </label>
@@ -359,8 +359,8 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="email-reserva">
-                                                    <span class="col-sm-2"><p>E-mail</p></span>
-                                                    <div id="" class="wrap-input col-sm-10">
+                                                    <span class="col-xs-2"><p>E-mail</p></span>
+                                                    <div id="" class="wrap-input col-xs-10">
                                                         <input type="phone" class="form-control" id="email-reserva">
                                                     </div>
                                                 </label>
@@ -373,8 +373,8 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="telefone-reserva">
-                                                    <span class="col-sm-5"><p>Telefone</p></span>
-                                                    <div id="" class="wrap-input col-sm-7">
+                                                    <span class="col-xs-2 col-sm-5"><p>Telefone</p></span>
+                                                    <div id="" class="wrap-input col-xs-10 col-sm-7">
                                                         <input type="phone" class="form-control" id="telefone-reserva">
                                                     </div>
                                                 </label>
@@ -392,8 +392,8 @@
                                         <div class="container-fluid">
                                             <div class="row">
                                                 <label for="observacoes-reserva">
-                                                    <span class="col-sm-3"><p>Mensagem</p></span>
-                                                    <div id="" class="wrap-input col-sm-9">
+                                                    <span class="col-xs-3"><p>Mensagem</p></span>
+                                                    <div id="" class="wrap-input col-xs-9">
                                                         <textarea class="form-control" id="observacoes-reserva" name="observacoes-reserva" rows="4" cols="50"></textarea>
                                                     </div>
                                                 </label>
